@@ -1,14 +1,15 @@
-#KSI-Mart
+# KSI-Mart
 
 Una tienda web para el curso de  Desarrollo de Software
-###Requerimientos
+
+### Requerimientos
 ------------
 
 Se necesita:
 - Tener instalado docker
 - Tener habilitado el docker-compose, en caso de no tenerlo [en este enlace](https://docs.docker.com/compose/install/) se puede revisar como.
 
-###Instrucciones
+### Instrucciones
 
 ------------
 
