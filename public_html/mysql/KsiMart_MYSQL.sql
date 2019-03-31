@@ -16,7 +16,7 @@ create table producto (
 	descripcion text not null,
 	constraint codigo_barras_pk primary key (codigo_barras),
 	constraint id_seccion_fk foreign key (id_seccion)
-		references seccion (id_seccion)
+		references seccion(id_seccion)
 );
 
 create table cliente (

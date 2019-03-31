@@ -9,7 +9,7 @@ Se necesita:
 - Tener instalado docker
 - Tener habilitado el docker-compose, en caso de no tenerlo [en este enlace](https://docs.docker.com/compose/install/) se puede revisar como.
 
-### Instrucciones
+### Instrucciones de instalación
 
 ------------
 
@@ -24,4 +24,4 @@ Se necesita:
 - Ahora podemos salir del contenedor con `CTRL+p+q`
 - Finalmente pueden visualizar la pagina inicial en el siguiente enlace-> [KSI-Mart](http://localhost:80 "KSI-Mart")
 
-###End
+### End
