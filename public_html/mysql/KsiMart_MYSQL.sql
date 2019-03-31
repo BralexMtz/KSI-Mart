@@ -1,8 +1,8 @@
 
 create table seccion (
 	id_seccion integer auto_increment,
-	categoria varchar (2) not null, 
-	nombre_seccion varchar(20) not null,
+	categoria varchar (2) not null,
+	nombre_seccion varchar(30) not null,
 	constraint id_seccion_pk primary key (id_seccion),
 	constraint categoria_chk check (categoria in ('DE', 'TH'))
 );
@@ -13,7 +13,7 @@ create table producto (
 	precio float(3) not null,
 	cantidad integer not null,
 	nombre varchar (100) not null,
-	descripcion varchar (200) not null,
+	descripcion text not null,
 	constraint codigo_barras_pk primary key (codigo_barras),
 	constraint id_seccion_fk foreign key (id_seccion)
 		references seccion (id_seccion)
