@@ -10,9 +10,9 @@ create table seccion (
 create table producto (
     codigo_barras integer auto_increment,
 	id_seccion integer not null,
-	nombre varchar (100) not null,
 	precio float(3) not null,
 	cantidad integer not null,
+	nombre varchar (100) not null,
 	descripcion varchar (200) not null,
 	constraint codigo_barras_pk primary key (codigo_barras),
 	constraint id_seccion_fk foreign key (id_seccion)
