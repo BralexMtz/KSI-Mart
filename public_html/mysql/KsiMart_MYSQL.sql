@@ -8,7 +8,7 @@ create table seccion (
 );
 
 create table producto (
-    codigo_barras char(30) auto_increment,
+    codigo_barras integer auto_increment,
 	id_seccion integer not null,
 	descripcion varchar (100) not null,
 	precio float(3) not null,
