@@ -11,6 +11,11 @@ body{
   
   width: 60px;
 }
+
+.k2{
+  
+  width: 200px;
+}
 nav{
 	margin-left: 20%
 }
@@ -101,3 +106,17 @@ footer{
 	float: left;
 	bottom: 20px;
 }
+
+.Agregar{
+ z-index: 10; 
+
+ color: black; 
+ top:80%;
+ position: fixed;
+ text-align: center; 
+ height: 12%;
+ width: 180px; 
+ margin-left: 83%;}
+
+}
+
