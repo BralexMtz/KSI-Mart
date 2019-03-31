@@ -12,7 +12,7 @@ create table producto (
 	id_seccion integer not null,
 	precio float(3) not null,
 	cantidad integer not null,
-	nombre varchar (100) not null,
+	nombre varchar (150) not null,
 	descripcion text not null,
 	constraint codigo_barras_pk primary key (codigo_barras),
 	constraint id_seccion_fk foreign key (id_seccion)
