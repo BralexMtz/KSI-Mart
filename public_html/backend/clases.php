@@ -4,10 +4,13 @@ $<?php
 		public $codigo_barras;
 	}
 
-	class Producto {
+	class ProductoBase{
 		public $codigo_barras;
 		public $precio;
 		public $nombre;
+	}
+
+	class Producto extends ProductoBase{
 		public $descripcion;
 	}
 
@@ -16,11 +19,6 @@ $<?php
 		public $nombre;
 	}
 
-	class Seccion {
-		public $id_seccion;
-		public $categoria;
-		public $nombre_seccion;
-	}
 
 
 ?>

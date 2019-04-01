@@ -9,7 +9,6 @@ if (!empty($_POST['Seccion'])) {
     } else {
         include 'clases.php';
         $resultado = $conn->query("SELECT codigo_barras,nombre,precio,descripcion FROM producto WHERE id_seccion = (SELECT id_seccion FROM seccion WHERE nombre_seccion='".$_POST['Seccion']."')");
-        echo $_POST['Seccion']."<br>";
 
         $seccion=[];
         //Array asociativo
