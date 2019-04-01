@@ -1,4 +1,4 @@
-$<?php 
+$<?php
 	class Carrito {
 		public $id_cliente;
 		public $codigo_barras;
@@ -6,9 +6,7 @@ $<?php
 
 	class Producto {
 		public $codigo_barras;
-		public $id_seccion;
 		public $precio;
-		public $cantidad;
 		public $nombre;
 		public $descripcion;
 	}
